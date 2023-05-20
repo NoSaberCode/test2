@@ -6,6 +6,15 @@ Nguyên Hoàng
 <head>
   <title>Welcome to XYZ</title>
   <style> color: red; </style>
+
+  form action = "mailto:xyz@com" method = "post" enctype = "text/plain">
+  Name: <br>
+    <input type = "text" name = "name" ><br>
+    E-mail: <br>
+    <input type = "text" name = "mail" ><br>
+    <input type = "submit" value = "Send">
+    <input type = "reset" value = "Reset">
+  </form>
 </head>
 <body>
   <h1> Hey Customer! Welcome to our shop </h1>
